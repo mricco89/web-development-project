@@ -1,0 +1,262 @@
+/* styles.css */
+/*
+    IT 3203: Introduction to Web Development
+    Milestone 1: Basic Website with Client-Side JavaScript
+    File: styles.css
+    Programmer: Matthew Ricco
+    Date: 3/03/2024
+    Description: This CSS file contains styling for the Milestone 1 project in IT 3203.
+    It includes styles for the basic layout, navigation, main content, and footer.
+*/
+
+/* Background color for heading 1 within the #home section */
+body#home h1 {
+    /* Set background color */
+    background-color: #333; /* Adjust background color as needed */
+    /* Set padding */
+    padding: 0px; /* Adjust padding as needed */
+    /* Set text color */
+    color: #fff; /* Adjust text color as needed */
+    /* Center-align text */
+    text-align: center; 
+}
+
+/* Background color for paragraphs within the #home section */
+body#home p {
+    /* Set background color */
+    background-color: #333; /* Adjust background color as needed */
+    /* Set padding */
+    padding: 10px; /* Adjust padding as needed */
+    /* Set text color */
+    color: #fff; /* Adjust text color as needed */
+}
+
+/* Body styles */
+body#home {
+    /* Set font family */
+    font-family: Arial, sans-serif; 
+    /* Background color for the body */
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    /* Text color */
+    color: #faf8f8; /* Adjust text color as needed */
+    /* Set background image for home page */
+    background-image: url('background.jpg'); 
+    /* Cover the entire background */
+    background-size: cover; 
+    /* Center the background image */
+    background-position: top left; 
+    /* Ensure the entire background is visible */
+    background-repeat: no-repeat;
+}
+
+.about-photo {
+    text-align: center;
+}
+
+.about-photo img {
+    display: inline-block;
+}
+
+/* Background color for heading 1 within the #about section */
+body#about h1 {
+    /* Set background color */
+    background-color: #333; /* Adjust background color as needed */
+    /* Set padding */
+    padding: 0px; /* Adjust padding as needed */
+    /* Set text color */
+    color: #fff; /* Adjust text color as needed */
+    /* Center-align text */
+    text-align: center; 
+}
+
+
+/* Indent first word of each paragraph within the #about section */
+#about p {
+    /* Set background color */
+    background-color: #333; 
+    /* Set padding */
+    padding: 10px; /* Adjust padding as needed */
+    /* Set text-indent */
+    text-indent: 1em;
+}
+
+/* Body styles */
+body#about {
+    /* Set font family */
+    font-family: Arial, sans-serif; 
+    /* Background color for the body */
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    /* Text color */
+    color: #faf8f8; /* Adjust text color as needed */
+    /* Set background image for about page */
+    background-image: url('background2.jpg'); 
+    /* Cover the entire background */
+    background-size: cover; 
+    /* Center the background image */
+    background-position: top left; 
+    /* Ensure the entire background is visible */
+    background-repeat: no-repeat;
+}
+
+/* Additional styling for the contact form */
+.contact-form {
+    /* text-align: center; Remove centering */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.contact-form form {
+    display: inline-block; /* Display the form as inline-block */
+    text-align: left; /* Align the form contents to the left */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add a border for styling */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #f9f9f9; /* Add a background color for contrast */
+    /* margin: 0 auto; Remove centering */
+    max-width: 400px; /* Set maximum width for the form */
+}
+
+.contact-form h2 {
+    margin-top: 0; /* Remove top margin for spacing */
+}
+
+.contact-form label {
+    display: block; /* Display labels as block for vertical stacking */
+    margin-bottom: 5px; /* Add bottom margin for spacing */
+    color: #333; /* Change label text color */
+}
+ 
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Set input and textarea width to 100% for responsiveness */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+    padding: 8px; /* Add padding for spacing */
+    border-radius: 3px; /* Add border radius for rounded corners */
+    border: 1px solid #ccc; /* Add a border for styling */
+    color: #555; /* Change input text color */
+}
+
+.contact-form button {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    padding: 10px 20px; /* Add padding for spacing */
+    border: none; /* Remove button border */
+    border-radius: 3px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+
+/* Background color for paragraphs within the #contact section */
+body#contact p {
+    /* Set background color */
+    background-color: #333; /* Adjust background color as needed */
+    /* Set padding */
+    padding: 10px; /* Adjust padding as needed */
+    /* Set text color */
+    color: #fff; /* Adjust text color as needed */
+    /* Set text-indent */
+    text-indent: 1em;
+}
+
+/* Body styles */
+body#contact {
+    /* Set font family */
+    font-family: Arial, sans-serif; 
+    /* Background color for the body */
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    /* Text color */
+    color: #faf8f8; /* Adjust Text color as needed */
+    /* Set background image for contact page */
+    background-image: url('background3.jpg'); 
+    /* Cover the entire background */
+    background-size: cover; 
+    /* Center the background image */
+    background-position: top left; 
+    /* Ensure the entire background is visible */
+    background-repeat: no-repeat;
+}
+
+/* Header styles */
+header {
+    /* Set background color for the header */
+    background-color: #333; 
+    /* Set text color */
+    color: #ffffff; 
+    /* Set padding */
+    padding: 10px 0; 
+    /* Center-align text */
+    text-align: center; 
+}
+
+/* Navigation styles */
+nav ul {
+    /* Remove default list style */
+    list-style-type: none; 
+    /* Remove default margin */
+    margin: 0; 
+    /* Remove default padding */
+    padding: 0; 
+}
+
+nav ul li {
+    /* Display list items inline */
+    display: inline; 
+    /* Set margin between list items */
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    /* Set text color for navigation links */
+    color: #fff; 
+    /* Remove underline from links */
+    text-decoration: none; 
+}
+
+/* Additional styling for the navigation links */
+nav ul {
+    text-align: center; /* Center the navigation links */
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add right margin between list items */
+}
+
+nav ul li a {
+    text-decoration: underline; /* Underline the navigation links */
+    color: #fff; /* Set link color */
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+/* Main content styles */
+main {
+    /* Set padding */
+    padding: 20px; 
+}
+
+/* Footer styles */
+footer {
+    /* Set background color for the footer */
+    background-color: #333; 
+    /* Set text color */
+    color: #fff; 
+    /* Set padding */
+    padding: 0px 0; 
+    /* Center-align text */
+    text-align: center; 
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .box {
+        /* Set full width for smaller screens */
+        width: 100%; 
+    }
+}
+

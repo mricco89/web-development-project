@@ -1,0 +1,69 @@
+<!-- contact.html - Contact Me Page -->
+<!-- IT 3203: Introduction to Web Development -->
+<!-- Milestone 1: Basic Website with Client-Side JavaScript -->
+<!-- File: contact.html -->
+<!-- Programmer: Matthew Ricco -->
+<!-- Date: 03/03/2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the website -->
+    <title>Contact</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="contact">
+    <!-- Header section containing navigation menu -->
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links to Home, About, and Contact pages -->
+                <li><a href="IntroToWebDesignProject.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Section for Contact page -->
+        <section>
+            <div class="contact-form">
+                <!-- Form heading -->
+                <h2>Send me a message</h2>
+                <!-- Form -->
+                <!-- REMEMBERER TO DO THIS! replace 
+                "submit_contact_form.php" with the actual URL of 
+                server-side script that handles form submissions. -->
+                <form action="submit_contact_form.php" method="post">
+                    <!-- Name input -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <!-- Email input -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <!-- Message input -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <!-- Submit button -->
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; 2024 Matthew Ricco</p>
+    </footer>
+
+    <!-- Link to external JavaScript file for client-side scripting -->
+    <script src="script.js"></script>
+</body>
+</html>
