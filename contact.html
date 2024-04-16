@@ -22,7 +22,7 @@
         <nav>
             <ul>
                 <!-- Navigation links to Home, About, and Contact pages -->
-                <li><a href="IntroToWebDesignProject.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -37,10 +37,7 @@
                 <!-- Form heading -->
                 <h2>Send me a message</h2>
                 <!-- Form -->
-                <!-- REMEMBERER TO DO THIS! replace 
-                "submit_contact_form.php" with the actual URL of 
-                server-side script that handles form submissions. -->
-                <form action="submit_contact_form.php" method="post">
+                <form id="contact-form" onsubmit="return validateForm()">
                     <!-- Name input -->
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -51,7 +48,7 @@
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
                     <!-- Submit button -->
-                    <button type="submit">Submit</button>
+                    <button type="submit" id="submit-button">Submit</button>
                 </form>
             </div>
         </section>

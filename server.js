@@ -41,7 +41,7 @@ app.post('/submit-form', (req, res) => {
 
 // Route for serving the home page
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/IntroToWebDesignProject.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 // Start the server
