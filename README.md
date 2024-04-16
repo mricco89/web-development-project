@@ -17,3 +17,15 @@ files being added now 8:18pm.
 
 Next itterations:
 add php stuff, add more js bank end stuff, add top button to about page in the footer. Play with the css a little more, maybe not have the boxes all the way across the screen and change some fonts, do some bolds and underlines maybe?
+
+04/14/2024 - 04/15/2024
+### Changes Made to `script.js`:
+- Updated Form Submission: Changed the request body construction to use `URLSearchParams` for form data serialization.
+- Form Submission with `fetch`: Utilized `URLSearchParams` directly as the `body` in the `fetch` function to handle form submission.
+
+### Added file and Changes Made to `server.js`:
+This script is designed to work with the server-side logic described earlier and enhances the form submission process with error handling and feedback to the user.
+- Handling Form Submission: Modified the server to handle form submissions with `x-www-form-urlencoded` data format using `express.urlencoded()` middleware.
+- Serving Static Files: Updated static files serving to use the root directory (`__dirname`) for serving HTML, CSS, and JavaScript files.
+
+These changes ensure that the client-side form submission (from `script.js`) aligns with the server-side form handling (in `server.js`) using `x-www-form-urlencoded` data format.
