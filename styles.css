@@ -252,6 +252,26 @@ footer {
     text-align: center; 
 }
 
+/* Styles for the top button */
+#topButton {
+    display: block; /* Initially hide the button */
+    position: fixed; /* Fixed position on the screen */
+    bottom: 20px; /* Distance from the bottom of the page */
+    right: 20px; /* Distance from the right of the page */
+    z-index: 99; /* Ensure button appears above other content */
+    font-size: 16px; /* Button font size */
+    padding: 10px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    background-color: #fff; /* Button background color */
+    color: #333; /* Button text color */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Styles for hover effect */
+#topButton:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .box {
