@@ -29,3 +29,8 @@ This script is designed to work with the server-side logic described earlier and
 - Serving Static Files: Updated static files serving to use the root directory (`__dirname`) for serving HTML, CSS, and JavaScript files.
 
 These changes ensure that the client-side form submission (from `script.js`) aligns with the server-side form handling (in `server.js`) using `x-www-form-urlencoded` data format.
+
+04/21/2024- 04/22/2024
+
+### Top of Page Button
+Added a top of page button to the About page for easy navigation. Updated styles.css to include styling for the top button to ensure its visibility and appearance. Implemented JavaScript functions in script.js to control the behavior of the top button, including showing or hiding it based on scroll position and enabling smooth scrolling to the top of the page upon button click. This enhancement improves user experience by providing a convenient way to return to the top of the content.
